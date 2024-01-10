@@ -1,0 +1,13 @@
+--> RWD:responsive Web Design
+--> Mobile First Approach :applicion is mobile first desktop next,as users use mobiles most
+Bootstrap is more focuses on responsiveness
+--> setup 
+--> Layout
+--> Container,container-fluid,breakpoints
+--> grid in boot strap,
+--> column prefix works
+--> columns nesting
+
+
+components:
+Accordion -- for fiqs, expandle components

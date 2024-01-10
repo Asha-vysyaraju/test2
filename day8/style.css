@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+}
+#nav{
+    background-color: lightgray;
+  
+    height:40px;
+    font-size: 30px;
+   
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-variant: small-caps;
+}
+#links{
+    margin-left:950px;
+}
+#heading{
+    margin-top: 80px;
+    color:rgb(56, 4, 4);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+p{
+    
+    font-size: 30px;
+    color:rgb(181, 181, 51);
+}
+.text{
+    position:absolute;
+    bottom:10px ;
+    left:20px;
+}
+p:hover{
+    color:blue
+}
