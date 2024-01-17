@@ -1,0 +1,5 @@
+--> window vs document
+-->setTimeout vs setInterval
+-->prompt,alert,confirm
+--> working with events
+

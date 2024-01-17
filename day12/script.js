@@ -24,3 +24,15 @@ console.log(list1)
 for(var i=0;i<=list.length;i++){
     list[i].style.backgroundColor='green'
 }
+
+let heading=document.createElement('h1')
+let span=document.createElement('span')
+heading.append(span)
+// heading.append("welcome")
+// heading.appendChild("welcome") // this doesnt work append child doesnot allow text to be appended
+// append allows multiple elemts to append example
+// heading.append('welcome',span,span1)
+document.body.append(heading)
+
+
+let 

@@ -1,0 +1,33 @@
+-> DOM
+-> CreateElement
+-> setAttribute
+-> getElementById
+-> querySelector vs querySelectorAll
+-> innerHTML vs innerText
+-> appendChild
+-> append
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+
+          <img src="./women1.555f1fd9c475b67115ac2a2d120a84e8.webp" />
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="row">
+            <div class="col-6">
+              <div class="card">
+                <div class="card-header">test</div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="col-12 col-lg-4">
+                <button type="button" class="btn btn-outline-primary">submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mouse over the text for change in color</h1>
+    <div onmouseover="changeColor(this)"  onmousedown="normalColor(this)">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Sunt voluptatum illo libero unde atque quaerat inventore pariatur voluptas alias minima 
+        laboriosam nulla quibusdam rerum, quia quis iusto cupiditate molestiae aut?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Sunt voluptatum illo libero unde atque quaerat inventore pariatur voluptas alias minima 
+        laboriosam nulla quibusdam rerum, quia quis iusto cupiditate molestiae aut?
+    </div><br>
+    <button onclick="readValue()">Read value</button>
+    <span id="txt"></span>
+    
+    <h1>Click on the text for mouse cordinates</h1>
+    <h1 id="heading" onmousedown="findCordinates(event)">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente consequatur cumque accusamus voluptas exercitationem atque facere debitis, quibusdam cupiditate, possimus mollitia dolor consectetur. Incidunt laboriosam optio aliquid voluptatibus nihil nobis.</h1>
+    <span id="xCord"></span>
+    <span id="yCord"></span>
+    <h1>Displaying character count in textarea</h1>
+    <textarea name="area" id="area" cols="50" rows="10" onkeydown="countLength(this)" placeholder="what's happening?"></textarea>
+    <div id="count">0</div>
+    <label>Enter an decimal to convert to binary </label>
+    <input type="text" id="num" name="num">
+    <button onclick="convertToBinary()">Binary</button>
+    <div id="binary"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
